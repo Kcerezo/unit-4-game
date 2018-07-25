@@ -14,8 +14,7 @@ Math.floor(Math.random() * 48) + 1;
 $("#target").html(target);
 
 $(document).ready(function() {
-    //show target on page
-    //make onclick event for .btn-choice elements using jquery
+   
     $('.btn-choice').on('click',function(){
         if($(this).attr('value')==='1'){
             score += buttonOne
@@ -48,12 +47,6 @@ $(document).ready(function() {
         score = 0;
         $("#score").text(score)
     }
-        //score of this button is added to total score - make function that does this
-        
-        //display score on the page (update text of #score element with score)
-    
-        //if score > target - player loses
 
        
 });
-        //else if score === target - player wins(make sure both are same type)
