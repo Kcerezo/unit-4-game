@@ -4,7 +4,7 @@
     color: white;
     font: bold;
     font-size: x-large;
-    text-shadow: .5em;
+    text-shadow: 2px 2px black;
 
 }
 
@@ -13,5 +13,5 @@ h1{
     color: white;
     font: bold;
     font-size: 80px;
-
+    text-shadow: 2px 2px black;
 }
